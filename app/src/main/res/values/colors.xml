@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
@@ -11,4 +12,15 @@
     <color name="blue">#FF0000FF</color>
     <color name="yellow">#FFFFEB3B</color>
 
+    <color name="market_background">#121622</color>
+    <color name="market_header_blue">#1E88E5</color>
+    <color name="market_card_bg">#1A2130</color>
+    <color name="market_card_stroke">#2A3546</color>
+    <color name="market_status_bg">#161C26</color>
+    <color name="text_secondary">#8A99AD</color>
+    <color name="market_green">#4CAF50</color>
+    <color name="market_green_translucent">#264CAF50</color>
+    <color name="market_red">#E53935</color>
+    <color name="market_red_translucent">#26E53935</color>
+    <color name="market_orange">#D84315</color>
 </resources>

@@ -1,3 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Market</string>
+    <string name="app_name">Android Recruitment Test</string>
+    <string name="live_markets">LIVE MARKETS</string>
+    <string name="status_connected">Live/Connected</string>
+    <string name="status_disconnected">Disconnected</string>
+    <string name="status_reconnecting">Reconnecting..</string>
+    <string name="offline_state_warning">⚠️  OFFLINE STATE</string>
 </resources>
