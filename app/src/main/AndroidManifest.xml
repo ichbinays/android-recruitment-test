@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.sockettest">
+
+    <uses-sdk tools:overrideLibrary="com.google.android.material, androidx.appcompat.resources, androidx.appcompat, androidx.core, androidx.activity, androidx.fragment, androidx.lifecycle.runtime, androidx.lifecycle.viewmodel, androidx.lifecycle.livedata, androidx.room, androidx.sqlite, androidx.savedstate, androidx.transition, androidx.viewpager2, androidx.emoji2.viewsintegration, androidx.emoji2, androidx.startup, androidx.profileinstaller, androidx.tracing, androidx.lifecycle.lifecycle.viewmodel.anchor, androidx.lifecycle.livedata.core, androidx.lifecycle.process, androidx.lifecycle.ktx, androidx.lifecycle.livedata.core.ktx, androidx.lifecycle.viewmodel.ktx, androidx.lifecycle.livedata.ktx, androidx.lifecycle.viewmodel.savedstate, androidx.core.ktx, androidx.room.ktx, androidx.sqlite.db.framework, androidx.sqlite.db" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SocketTest">
+        <activity
+            android:name="presentation.main.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

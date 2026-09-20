@@ -1,0 +1,23 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color blue
+color green
+color purple_200
+color purple_500
+color purple_700
+color red
+color teal_200
+color teal_700
+color white
+color yellow
+drawable bg_card_item
+drawable ic_status_indicator
+id fragmentContainer
+id recyclerView
+id statusIndicator
+id statusText
+layout activity_main
+layout fragment_market
+string app_name
+style Theme.SocketTest

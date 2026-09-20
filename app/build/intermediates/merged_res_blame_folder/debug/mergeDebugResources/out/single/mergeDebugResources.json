@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.example.sockettest.app-debug-39:/layout_activity_main.xml.flat",
+        "source": "com.example.sockettest.app-main-41:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.sockettest.app-debug-39:/drawable_ic_status_indicator.xml.flat",
+        "source": "com.example.sockettest.app-main-41:/drawable/ic_status_indicator.xml"
+    },
+    {
+        "merged": "com.example.sockettest.app-debug-39:/layout_fragment_market.xml.flat",
+        "source": "com.example.sockettest.app-main-41:/layout/fragment_market.xml"
+    },
+    {
+        "merged": "com.example.sockettest.app-debug-39:/drawable_bg_card_item.xml.flat",
+        "source": "com.example.sockettest.app-main-41:/drawable/bg_card_item.xml"
+    }
+]
