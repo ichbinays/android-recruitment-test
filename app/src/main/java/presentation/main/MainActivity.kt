@@ -6,6 +6,9 @@ import com.example.sockettest.R
 import com.example.sockettest.databinding.ActivityMainBinding
 import presentation.market.MarketFragment
 
+import dagger.hilt.android.AndroidEntryPoint
+
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding

@@ -1,18 +1,130 @@
 [
     {
-        "merged": "com.example.sockettest.app-debug-39:/layout_activity_main.xml.flat",
-        "source": "com.example.sockettest.app-main-41:/layout/activity_main.xml"
+        "merged": "com.example.sockettest.app-debug-42:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.sockettest.app-main-44:/mipmap-xxhdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.example.sockettest.app-debug-39:/drawable_ic_status_indicator.xml.flat",
-        "source": "com.example.sockettest.app-main-41:/drawable/ic_status_indicator.xml"
+        "merged": "com.example.sockettest.app-debug-42:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.sockettest.app-main-44:/mipmap-xhdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.example.sockettest.app-debug-39:/layout_fragment_market.xml.flat",
-        "source": "com.example.sockettest.app-main-41:/layout/fragment_market.xml"
+        "merged": "com.example.sockettest.app-debug-42:/layout_item_market.xml.flat",
+        "source": "com.example.sockettest.app-main-44:/layout/item_market.xml"
     },
     {
-        "merged": "com.example.sockettest.app-debug-39:/drawable_bg_card_item.xml.flat",
-        "source": "com.example.sockettest.app-main-41:/drawable/bg_card_item.xml"
+        "merged": "com.example.sockettest.app-debug-42:/drawable_bg_market_footer.xml.flat",
+        "source": "com.example.sockettest.app-main-44:/drawable/bg_market_footer.xml"
+    },
+    {
+        "merged": "com.example.sockettest.app-debug-42:/drawable_bg_status_pill.xml.flat",
+        "source": "com.example.sockettest.app-main-44:/drawable/bg_status_pill.xml"
+    },
+    {
+        "merged": "com.example.sockettest.app-debug-42:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.sockettest.app-main-44:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.sockettest.app-debug-42:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.sockettest.app-main-44:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.sockettest.app-debug-42:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.sockettest.app-main-44:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.sockettest.app-debug-42:/drawable_bg_circle_red.xml.flat",
+        "source": "com.example.sockettest.app-main-44:/drawable/bg_circle_red.xml"
+    },
+    {
+        "merged": "com.example.sockettest.app-debug-42:/drawable_bg_circle_green.xml.flat",
+        "source": "com.example.sockettest.app-main-44:/drawable/bg_circle_green.xml"
+    },
+    {
+        "merged": "com.example.sockettest.app-debug-42:/drawable_bg_price_change_chip.xml.flat",
+        "source": "com.example.sockettest.app-main-44:/drawable/bg_price_change_chip.xml"
+    },
+    {
+        "merged": "com.example.sockettest.app-debug-42:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.sockettest.app-main-44:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.sockettest.app-debug-42:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.sockettest.app-main-44:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.sockettest.app-debug-42:/layout_fragment_market.xml.flat",
+        "source": "com.example.sockettest.app-main-44:/layout/fragment_market.xml"
+    },
+    {
+        "merged": "com.example.sockettest.app-debug-42:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.sockettest.app-main-44:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.sockettest.app-debug-42:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.sockettest.app-main-44:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.sockettest.app-debug-42:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.sockettest.app-main-44:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.sockettest.app-debug-42:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.sockettest.app-main-44:/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.sockettest.app-debug-42:/drawable_ic_status_indicator.xml.flat",
+        "source": "com.example.sockettest.app-main-44:/drawable/ic_status_indicator.xml"
+    },
+    {
+        "merged": "com.example.sockettest.app-debug-42:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.sockettest.app-main-44:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.sockettest.app-debug-42:/drawable_bg_badge_green.xml.flat",
+        "source": "com.example.sockettest.app-main-44:/drawable/bg_badge_green.xml"
+    },
+    {
+        "merged": "com.example.sockettest.app-debug-42:/drawable_bg_market_header.xml.flat",
+        "source": "com.example.sockettest.app-main-44:/drawable/bg_market_header.xml"
+    },
+    {
+        "merged": "com.example.sockettest.app-debug-42:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.sockettest.app-main-44:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.sockettest.app-debug-42:/drawable_bg_card_item.xml.flat",
+        "source": "com.example.sockettest.app-main-44:/drawable/bg_card_item.xml"
+    },
+    {
+        "merged": "com.example.sockettest.app-debug-42:/drawable_bg_badge_red.xml.flat",
+        "source": "com.example.sockettest.app-main-44:/drawable/bg_badge_red.xml"
+    },
+    {
+        "merged": "com.example.sockettest.app-debug-42:/layout_activity_main.xml.flat",
+        "source": "com.example.sockettest.app-main-44:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.sockettest.app-debug-42:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.sockettest.app-main-44:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.sockettest.app-debug-42:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.sockettest.app-main-44:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.sockettest.app-debug-42:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.sockettest.app-main-44:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.sockettest.app-debug-42:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.sockettest.app-main-44:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.sockettest.app-debug-42:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.sockettest.app-main-44:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.sockettest.app-debug-42:/drawable_bg_market_card.xml.flat",
+        "source": "com.example.sockettest.app-main-44:/drawable/bg_market_card.xml"
     }
 ]

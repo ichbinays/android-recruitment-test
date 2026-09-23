@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Android Recruitment Test</string>
+    <string name="app_name">Invest Az</string>
     <string name="live_markets">LIVE MARKETS</string>
     <string name="status_connected">Live/Connected</string>
     <string name="status_disconnected">Disconnected</string>

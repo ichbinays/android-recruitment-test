@@ -12,6 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.sockettest.R;
+import com.google.android.material.appbar.MaterialToolbar;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -21,21 +22,33 @@ public final class FragmentMarketBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final RecyclerView recyclerView;
+  public final TextView footerText;
 
   @NonNull
-  public final View statusIndicator;
+  public final View headerDot;
+
+  @NonNull
+  public final TextView headerTitle;
+
+  @NonNull
+  public final RecyclerView recyclerView;
 
   @NonNull
   public final TextView statusText;
 
-  private FragmentMarketBinding(@NonNull ConstraintLayout rootView,
-      @NonNull RecyclerView recyclerView, @NonNull View statusIndicator,
-      @NonNull TextView statusText) {
+  @NonNull
+  public final MaterialToolbar toolbar;
+
+  private FragmentMarketBinding(@NonNull ConstraintLayout rootView, @NonNull TextView footerText,
+      @NonNull View headerDot, @NonNull TextView headerTitle, @NonNull RecyclerView recyclerView,
+      @NonNull TextView statusText, @NonNull MaterialToolbar toolbar) {
     this.rootView = rootView;
+    this.footerText = footerText;
+    this.headerDot = headerDot;
+    this.headerTitle = headerTitle;
     this.recyclerView = recyclerView;
-    this.statusIndicator = statusIndicator;
     this.statusText = statusText;
+    this.toolbar = toolbar;
   }
 
   @Override
@@ -65,15 +78,27 @@ public final class FragmentMarketBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.recyclerView;
-      RecyclerView recyclerView = ViewBindings.findChildViewById(rootView, id);
-      if (recyclerView == null) {
+      id = R.id.footerText;
+      TextView footerText = ViewBindings.findChildViewById(rootView, id);
+      if (footerText == null) {
         break missingId;
       }
 
-      id = R.id.statusIndicator;
-      View statusIndicator = ViewBindings.findChildViewById(rootView, id);
-      if (statusIndicator == null) {
+      id = R.id.headerDot;
+      View headerDot = ViewBindings.findChildViewById(rootView, id);
+      if (headerDot == null) {
+        break missingId;
+      }
+
+      id = R.id.headerTitle;
+      TextView headerTitle = ViewBindings.findChildViewById(rootView, id);
+      if (headerTitle == null) {
+        break missingId;
+      }
+
+      id = R.id.recyclerView;
+      RecyclerView recyclerView = ViewBindings.findChildViewById(rootView, id);
+      if (recyclerView == null) {
         break missingId;
       }
 
@@ -83,8 +108,14 @@ public final class FragmentMarketBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentMarketBinding((ConstraintLayout) rootView, recyclerView, statusIndicator,
-          statusText);
+      id = R.id.toolbar;
+      MaterialToolbar toolbar = ViewBindings.findChildViewById(rootView, id);
+      if (toolbar == null) {
+        break missingId;
+      }
+
+      return new FragmentMarketBinding((ConstraintLayout) rootView, footerText, headerDot,
+          headerTitle, recyclerView, statusText, toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

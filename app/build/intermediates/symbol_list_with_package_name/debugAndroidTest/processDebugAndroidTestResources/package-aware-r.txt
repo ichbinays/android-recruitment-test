@@ -1,3 +1,0 @@
-com.example.sockettest.test
-style WhiteBackgroundDialogTheme
-style WhiteBackgroundTheme

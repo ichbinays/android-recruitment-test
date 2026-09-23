@@ -1,10 +1,14 @@
 [
     {
-        "merged": "com.example.sockettest.app-mergeDebugResources-38:/layout/fragment_market.xml",
-        "source": "com.example.sockettest.app-main-41:/layout/fragment_market.xml"
+        "merged": "com.example.sockettest.app-mergeDebugResources-41:/layout/fragment_market.xml",
+        "source": "com.example.sockettest.app-main-44:/layout/fragment_market.xml"
     },
     {
-        "merged": "com.example.sockettest.app-mergeDebugResources-38:/layout/activity_main.xml",
-        "source": "com.example.sockettest.app-main-41:/layout/activity_main.xml"
+        "merged": "com.example.sockettest.app-mergeDebugResources-41:/layout/activity_main.xml",
+        "source": "com.example.sockettest.app-main-44:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.sockettest.app-mergeDebugResources-41:/layout/item_market.xml",
+        "source": "com.example.sockettest.app-main-44:/layout/item_market.xml"
     }
 ]
